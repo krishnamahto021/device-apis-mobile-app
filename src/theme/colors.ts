@@ -1,0 +1,16 @@
+export const colors = {
+  sumi: '#1A1A1A',
+  washi: '#F5F0E6',
+  washiDeep: '#E8DFD0',
+  paper: '#FFFCF7',
+  vermillion: '#BC002D',
+  vermillionDark: '#8F0022',
+  indigo: '#2C4259',
+  indigoDark: '#1E3347',
+  gold: '#B8963E',
+  ink: '#3D3D3D',
+  mist: 'rgba(26, 26, 26, 0.55)',
+  topBarBg: 'rgba(245, 240, 230, 0.88)',
+  topBarBorder: 'rgba(184, 150, 62, 0.4)',
+  statusBorder: 'rgba(184, 150, 62, 0.35)',
+} as const;

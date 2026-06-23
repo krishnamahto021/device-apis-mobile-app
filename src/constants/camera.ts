@@ -1,0 +1,43 @@
+export const cameraCopy = {
+  loading: {
+    title: 'Checking permission',
+    subtitle: 'カメラの許可を確認中…',
+    accessibilityLabel: 'Checking camera permission',
+  },
+  permission: {
+    title: 'Camera Access',
+    body: 'We need camera access to take a photo.',
+    subtitle: '写真を撮るにはカメラへのアクセスが必要です',
+    grantLabel: 'Grant Camera Permission',
+    settingsLabel: 'Open Settings',
+    grantHint: 'Requests camera access from the system',
+    settingsHint: 'Opens app settings so you can enable camera access',
+  },
+  camera: {
+    title: 'Camera',
+    subtitle: '写真を撮る',
+    takePhoto: 'Take Photo',
+    takePhotoHint: 'Captures a photo using the rear camera',
+    saveToGallery: 'Save to Gallery',
+    saveToGalleryHint: 'Saves the captured photo to your device gallery',
+    retake: 'Retake',
+    retakeHint: 'Discards the current photo and opens the camera again',
+    photoCaption: '写真 · shashin',
+    menuCaptureSection: 'Capture',
+    menuPhotoSection: 'Photo actions',
+    statusSection: 'Status',
+  },
+  status: {
+    saving: 'Saving to gallery…',
+    saved: 'Photo saved to gallery',
+  },
+  alerts: {
+    cameraNotReadyTitle: 'Camera not ready',
+    cameraNotReadyMessage: 'Wait for the preview before taking a photo.',
+    photoFailedTitle: 'Photo failed',
+    libraryDeniedTitle: 'Photo library access denied',
+    libraryDeniedMessage: 'Enable photo library access in settings to save photos.',
+    cancel: 'Cancel',
+    openSettings: 'Open Settings',
+  },
+} as const;
