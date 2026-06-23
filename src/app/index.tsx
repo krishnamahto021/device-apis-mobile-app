@@ -1,3 +1,3 @@
-import { CameraScreen } from '@/components/camera/CameraScreen';
+import { AudioScreen } from '@/components/audio/AudioScreen';
 
-export default CameraScreen;
+export default AudioScreen;
