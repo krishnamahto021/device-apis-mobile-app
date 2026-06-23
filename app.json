@@ -51,6 +51,14 @@
         }
       ],
       "expo-audio",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your media.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save media.",
+          "granularPermissions": ["audio", "photo"]
+        }
+      ],
       "expo-image",
       "expo-asset"
     ],

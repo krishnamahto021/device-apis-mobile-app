@@ -1,3 +1,3 @@
-import { AudioScreen } from '@/components/audio/AudioScreen';
+import { RecordingScreen } from '@/components/recording/RecordingScreen';
 
-export default AudioScreen;
+export default RecordingScreen;
