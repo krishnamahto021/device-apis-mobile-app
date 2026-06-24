@@ -1,5 +1,5 @@
-import { NetworkScreen } from '@/components/network/NetworkScreen';
+import { FileScreen } from '@/components/files/FileScreen';
 
-export default function NetworkRoute() {
-  return <NetworkScreen />;
+export default function FileHandlingRoute() {
+  return <FileScreen />;
 }
