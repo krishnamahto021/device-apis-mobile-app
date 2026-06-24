@@ -1,5 +1,5 @@
-import { GalleryScreen } from '@/components/gallery/GalleryScreen';
+import { NetworkScreen } from '@/components/network/NetworkScreen';
 
-export default function MediaScreen() {
-  return <GalleryScreen />;
+export default function NetworkRoute() {
+  return <NetworkScreen />;
 }
