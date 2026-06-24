@@ -1,3 +1,5 @@
-import { RecordingScreen } from '@/components/recording/RecordingScreen';
+import { GalleryScreen } from '@/components/gallery/GalleryScreen';
 
-export default RecordingScreen;
+export default function MediaScreen() {
+  return <GalleryScreen />;
+}
