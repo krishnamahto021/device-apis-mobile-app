@@ -1,5 +1,3 @@
-import { FileScreen } from '@/components/files/FileScreen';
+import { NotificationScreen } from '@/components/notifications/NotificationScreen';
 
-export default function FileHandlingRoute() {
-  return <FileScreen />;
-}
+export default NotificationScreen;
